@@ -40,7 +40,6 @@
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view).with.insets(padding);
     }];
-    self.tableView.layer.contents = (__bridge id _Nullable)([UIImage imageNamed:@"hou"].CGImage);
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     //注册
