@@ -24,9 +24,7 @@
     self.scrollView.contentInset = UIEdgeInsetsMake(200, 0, 0, 0);
     //[self.scrollView setContentOffset:CGPointMake(0, 0) animated:YES];
     
-
-    
-    
+ 
     
 }
 

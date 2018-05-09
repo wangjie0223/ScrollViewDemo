@@ -47,22 +47,6 @@
         make.bottom.equalTo(@(-10));
     }];
     
-//    //v2
-//    UIView * v2 = [[UIView alloc]init];
-//    [contentView addSubview:v2];
-//    v2.backgroundColor = [UIColor greenColor];
-//
-//    //v3
-//    [v2 mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.left.right.equalTo(contentView);
-//        make.top.equalTo(v1.mas_bottom).offset(20);
-//        make.height.equalTo(@1000);
-//        make.width.offset(self.view.bounds.size.width);
-//
-//        //make.edges.equalTo(contentView);
-//        //make.width.offset(self.view.bounds.size.width);
-//    }];
-    
 }
 
 - (void)didReceiveMemoryWarning {
